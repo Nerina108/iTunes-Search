@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="container"
+>
+  <h4
+    className="welcome-text"
+  >
+    To add a music title to your favorites list, simply click the "Add to Favorites" button 
+    <br />
+    <br />
+    You can view your Favorites list at the bottom of the page.
+  </h4>
+  <br />
+  <label
+    className="search-label"
+    htmlFor="search-input"
+  >
+    <input
+      id="search-input"
+      name="query"
+      onChange={[Function]}
+      placeholder="Search music artist"
+      type="text"
+      value=""
+    />
+    <i
+      aria-hidden="true"
+      className="fa fa-search search-icon"
+    />
+  </label>
+  <img
+    alt="loader"
+    className="search-loading hide"
+    src="loader.gif"
+  />
+  <div>
+    <h2
+      style={
+        Object {
+          "display": "none",
+          "fontFamily": "Arial",
+        }
+      }
+    >
+      My Favorites
+    </h2>
+    <table
+      className="table table-bordered"
+    >
+      <tbody>
+        <tr
+          className="row-container"
+        />
+      </tbody>
+    </table>
+  </div>
+  <br />
+  <div
+    className="nav-link-container"
+  >
+    <a
+      className="nav-link hide 
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      ←
+    </a>
+    <a
+      className="nav-link hide
+          "
+      href="/"
+      onClick={[Function]}
+    >
+      →
+    </a>
+  </div>
+</div>
+`;

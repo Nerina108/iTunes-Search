@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="home-page"
+>
+  <h1
+    className="welcome-text"
+  >
+    Welcome to the iTunes Store Search App 
+  </h1>
+  <h5
+    className="instruct-text"
+  >
+    Click on the media type above to start your search.
+  </h5>
+</div>
+`;
